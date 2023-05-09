@@ -1,0 +1,110 @@
+ /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*header start*/
+.logo{
+    text-align: left;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.header-title h1{
+    text-align: right;
+}
+.navmenu{
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.navmenu a{
+    color: white;
+    text-align: right;
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+.navmenu a:hover{
+    background-color: tomato;
+}
+/*header start*/
+
+/*Profile start*/   
+
+.design1{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    transition: height 2s, width 2s, transform 2s;
+}
+.design1:hover{
+    height: 100px;
+    width: 100px;
+}
+.profile-desc p{
+    color: grey;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.design2{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    transition: height 2s, width 2s, transform 2s;
+}
+
+.design2:hover{
+    height: 100px;
+    width: 100px;
+}
+/*Profile End*/
+/*About ME Start*/
+.aboutme-description p{
+    text-align: left;
+}   
+.aboutme-image img{
+    height: 300px;
+    width: 350px;
+}
+/*About ME End*/
+/*achievement-part Start*/
+
+.achievement{
+    padding-right: 50px;
+}
+
+.more-ways{
+    position: relative;
+}
+.media-buttons{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 200px;
+}
+
+/*achievement-part End*/ 
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
